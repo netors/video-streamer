@@ -50,7 +50,7 @@ module.exports = {
             passport.use(new GitHubStrategy({
                     clientID: "YOUR_CLIENT_ID",
                     clientSecret: "YOUR_CLIENT_SECRET",
-                    callbackURL: "http://home-sd.rusanval.com:1337/auth/github/callback"
+                    callbackURL: "http://home-sd.rusanval.com:1338/auth/github/callback"
                 },
                 verifyHandler
             ));
@@ -58,7 +58,7 @@ module.exports = {
             passport.use(new FacebookStrategy({
                     clientID: "188786314652617",
                     clientSecret: "a2c30ab6da1c227071e0930caf92676f",
-                    callbackURL: "http://home-sd.rusanval.com:1337/auth/facebook/callback"
+                    callbackURL: "http://home-sd.rusanval.com:1338/auth/facebook/callback"
                 },
                 verifyHandler
             ));
@@ -66,7 +66,7 @@ module.exports = {
             passport.use(new GoogleStrategy({
                     clientID: 'YOUR_CLIENT_ID',
                     clientSecret: 'YOUR_CLIENT_SECRET',
-                    callbackURL: 'http://home-sd.rusanval.com:1337/auth/google/callback'
+                    callbackURL: 'http://home-sd.rusanval.com:1338/auth/google/callback'
                 },
                 verifyHandler
             ));
